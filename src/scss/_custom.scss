@@ -1,0 +1,59 @@
+// Here you can add other styles
+.username {
+  float: left;
+  text-align: right;
+}
+
+.ReactTable {
+  .rt-thead {
+    .rt-tr {
+      .rt-th {
+        font-weight: bold;
+      }
+    }
+  }
+  .rt-tbody {
+    .rt-tr {
+      &.-even {
+        background: rgba(4, 4, 4, 0.1);
+      }
+      .rt-td {
+        // text-align: center;
+        .action-btn {
+          display: inline-block;
+          vertical-align: middle;
+          width: 100%;
+          text-align: center;
+          .btn-edit,
+          .btn-delete {
+            cursor: pointer;
+            font-size: 20px;
+          }
+          .btn-delete {
+            margin-left: 18px;
+            color: #ff0000;
+          }
+          .btn-edit {
+            color: #00aeff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.btn {
+  &.btn-link {
+    display: inline !important;
+    background: transparent;
+    color: #20a8d8;
+    padding: 0px 0px;
+    border: 0px;
+    &:hover {
+      color: darken(#20a8d8, 10%);
+    }
+    &:active {
+      color: darken(#20a8d8, 20%);
+    }
+  }
+}

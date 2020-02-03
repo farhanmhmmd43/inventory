@@ -1,0 +1,6 @@
+{
+  "name": "Pengguna",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./Pengguna.js"
+}

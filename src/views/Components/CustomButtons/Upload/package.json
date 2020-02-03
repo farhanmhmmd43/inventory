@@ -1,0 +1,7 @@
+{
+   "name": "Upload",
+   "version": "1.0.0",
+   "private": true,
+   "main": "./Upload.js"
+}
+ 
